@@ -60,7 +60,7 @@ def parse_notes(text:str) -> dict:
     return notes   
     #print("Notes dictionary: ", notes)
 
-def save_notes(notes: dict) -> None:
+def save_notes(notes: dict):
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(notes, indent=2), encoding="utf-8")       
 
