@@ -18,13 +18,7 @@ def parse_notes(text:str) -> dict:
         "title":"",
         "owner": "",
         "decisions": [],
-        "actions": [
-            {
-                "owner": "",
-                "task": "",
-                "due_date": ""
-            }
-        ]
+        "actions": []
     }
     #print(f"Inside the parse_notes function: {text}")
     for raw_line in text.splitlines():

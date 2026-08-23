@@ -12,11 +12,6 @@
   ],
   "actions": [
     {
-      "owner": "",
-      "task": "",
-      "due_date": ""
-    },
-    {
       "owner": "John",
       "task": "Add structured logs",
       "due_date": "2026-08-26"
