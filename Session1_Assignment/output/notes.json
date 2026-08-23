@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-24",
+  "attendees": [
+    "Prasanna",
+    "John",
+    "Azhar"
+  ],
+  "title": "Checkout Reliability Review",
+  "owner": "Prasanna Venkatesh",
+  "decisions": [
+    "Add retry logging; create a payment failure dashboard"
+  ],
+  "actions": [
+    {
+      "owner": "",
+      "task": "",
+      "due_date": ""
+    },
+    {
+      "owner": "John",
+      "task": "Add structured logs",
+      "due_date": "2026-08-26"
+    },
+    {
+      "owner": "Azhar",
+      "task": "Draft dashboard",
+      "due_date": "2026-08-28"
+    }
+  ]
+}

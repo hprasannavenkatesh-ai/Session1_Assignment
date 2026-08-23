@@ -1,0 +1,6 @@
+Date: 2026-08-24
+Title: Checkout Reliability Review
+Owner: Prasanna Venkatesh
+Attendees: Prasanna, John, Azhar
+Decisions: Add retry logging; create a payment failure dashboard
+Actions: John|Add structured logs|2026-08-26; Azhar|Draft dashboard|2026-08-28
